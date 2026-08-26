@@ -1,0 +1,6 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "obsidian": "^1.13.1"
+  }
+}

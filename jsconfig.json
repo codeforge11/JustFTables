@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "checkJs": true,
+    "allowJs": true,
+    "moduleResolution": "Node16"
+  },
+  "include": ["**/*.js", "node_modules/obsidian/obsidian.d.ts"]
+}
