@@ -5,10 +5,6 @@ module.exports = class JustFTablesPlugin extends Plugin {
     async onload() {
         console.log('JustFTables, turn on!');
         
-        const style = document.createElement('style');
-        style.id = 'justFStyle';
-        document.head.appendChild(style);
-
         this.registerMarkdownPostProcessor((element, context) => {
             const tables = element.querySelectorAll('table');
 
@@ -80,10 +76,6 @@ module.exports = class JustFTablesPlugin extends Plugin {
 }
 
     onunload() {
-        const style = document.getElementById('justFStyle');
-        if (style){
-            style.remove();
-        }
         console.log('JustFTables, turn off!');
     }
 };
