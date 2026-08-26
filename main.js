@@ -7,11 +7,6 @@ module.exports = class JustFTablesPlugin extends Plugin {
         
         const style = document.createElement('style');
         style.id = 'justFStyle';
-        style.innerHTML = `
-            .justFMerged {
-                background-color: var(--background-secondary);
-            }
-        `;
         document.head.appendChild(style);
 
         this.registerMarkdownPostProcessor((element, context) => {
