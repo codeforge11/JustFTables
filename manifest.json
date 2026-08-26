@@ -1,7 +1,7 @@
 {
   "id": "justftables",
   "name": "JustFTables",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "minAppVersion": "1.0.0",
   "description": "A minimal extension that fixes a very annoying limitation: seamless column and row merging for tables.",
   "author": "codeforge11",
