@@ -3,7 +3,7 @@
   "name": "JustFTables",
   "version": "1.0.0",
   "minAppVersion": "1.0.0",
-  "description": "Better tables without headaches.",
+  "description": "A minimal extension that fixes a very annoying limitation: seamless column and row merging for tables",
   "author": "codeforge11",
   "isDesktopOnly": false
 }
