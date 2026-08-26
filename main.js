@@ -3,7 +3,7 @@ const { Plugin, Notice} = require('obsidian');
 /** @extends Plugin */
 module.exports = class JustFTablesPlugin extends Plugin {
     async onload() {
-        console.log('JustFTables, trun on!');
+        console.log('JustFTables, turn on!');
         
         const style = document.createElement('style');
         style.id = 'justFStyle';
